@@ -1,0 +1,39 @@
+body {
+	overflow: hidden;
+	background-color: #0a0911;
+}
+
+#chat {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 500px;
+}
+
+#video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 500px;
+	bottom: 0;
+	background-color: #11131b;
+	text-align: center;
+	display: block;
+}
+
+iframe {
+	width: 100%;
+	border: none;
+	margin: auto;
+	padding: 0;
+}
+
+.overlay {
+	/*background: rgba(255, 255, 255, 0.4);*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
